@@ -14,9 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    /* url("img/john-towner-JgOeRuGD_Y4-unsplash.jpg"); */
-    url("img/tj-holowaychuk-1EYMue_AwDw-unsplash.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/tj-holowaychuk-1EYMue_AwDw-unsplash.jpg");
     background-size: cover;
 
 }
@@ -33,7 +31,6 @@
 .month_name {
     width: 100%;
     height: 100px;
-    /* background-color: #48181a; */
     background-color: #173222;
     display: grid;
     text-align: center;
@@ -48,7 +45,6 @@
     font-size: 30px;
     font-weight: lighter;
     margin: 12px 0 0 0;
-    /* color: #a4a3a3f3; */
     color: white;
     text-transform: uppercase;
 }
@@ -56,7 +52,6 @@
 .year_name {
     font-size: 20px;
     font-weight: lighter;
-    /* color: #a4a3a3f3; */
     margin: 0px 0px 16px 0px;
     color: white;
     text-transform: uppercase;
@@ -97,24 +92,11 @@
     text-align: center;
 }
 
-/* .dates div:hover {
-    background-color: #493536c8;
-    color: white;
-} */
-
-
 .active{
     background-color: #493536c8;
     background-color : #17322288;
     color: white;
     border-radius: 100px;
     font-weight: bold;
-    /* border :1px solid #48181a; */
 
-}
-
-
-.prev,
-.next {
-    background-color: #494949c8;
 }

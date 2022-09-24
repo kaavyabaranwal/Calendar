@@ -8,16 +8,9 @@ let date = new Date();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
 let current = date.getDate();
-// console.log(year);
-
-// let current_day = date.getday();
-// let current_year = date.getFullYear();
-// let current_month = date.getMonth() + 1;
-
 
 let month_array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-// const calendar = () => {
 function calendar() {
     monthname.innerHTML = month_array[month - 1];
     yearname.innerHTML = year;
@@ -60,18 +53,6 @@ function calendar() {
     }
 }
 
-// function last_day_change(x) {
-//     if (x == 1 || x == 3 || x == 5 || x == 7 || x == 8 || x == 10 || x == 12) {
-//         document.getElementById("last").style.cssText = 'background-color: #a4a3a300;';
-//     }
-
-//     else {
-//         document.getElementById("last").style.cssText = ' background-color: #494949c8  ; color :#a4a3a300; ';
-//     }
-
-
-// }
-
 previous.addEventListener('click', onclickback);
 
 function onclickback() {
@@ -81,7 +62,6 @@ function onclickback() {
     }
     else month = month - 1;
     calendar();
-    // last_day_change(month);
 
 }
 
@@ -94,7 +74,4 @@ function onclickforward() {
     }
     else month = month + 1;
     calendar();
-    // last_day_change(month);
 }
-
-// let index = date.getDay();
